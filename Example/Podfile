@@ -8,9 +8,5 @@ target 'HelloXXXPod_Example' do
   target 'HelloXXXPod_Tests' do
     inherit! :search_paths
 
-    pod 'Specta'
-    pod 'Expecta'
-    pod 'FBSnapshotTestCase'
-    pod 'Expecta+Snapshots'
   end
 end
