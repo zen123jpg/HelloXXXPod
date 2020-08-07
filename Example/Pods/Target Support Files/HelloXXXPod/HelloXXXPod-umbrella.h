@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "UIImage+circle.h"
+#import "Reachability.h"
 
 FOUNDATION_EXPORT double HelloXXXPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char HelloXXXPodVersionString[];

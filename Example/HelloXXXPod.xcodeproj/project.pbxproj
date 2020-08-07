@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A394AFD424DDC1F9003DA36D /* LEEAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A394AFD324DDC1F9003DA36D /* LEEAlert.m */; };
 		D46E142AC0B68E3ECD95A848 /* Pods_HelloXXXPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C043ACDF78111B2116D6D777 /* Pods_HelloXXXPod_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		04110B7717F3D9CF4C6606DF /* Pods-HelloXXXPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloXXXPod_Example.release.xcconfig"; path = "Target Support Files/Pods-HelloXXXPod_Example/Pods-HelloXXXPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53BAAF763EBB255CAD9A88D9 /* HelloXXXPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HelloXXXPod.podspec; path = ../HelloXXXPod.podspec; sourceTree = "<group>"; };
+		53BAAF763EBB255CAD9A88D9 /* HelloXXXPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HelloXXXPod.podspec; path = ../HelloXXXPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* HelloXXXPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloXXXPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +64,13 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B4AEAFD9883415C6B6262E3 /* Pods-HelloXXXPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloXXXPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HelloXXXPod_Tests/Pods-HelloXXXPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		94C4D11110967A6D77557174 /* Pods-HelloXXXPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloXXXPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-HelloXXXPod_Example/Pods-HelloXXXPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A2728C3EEF265FBFAAA6C2A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2728C3EEF265FBFAAA6C2A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A394AFD124DDC1F9003DA36D /* LEEAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlert.h; sourceTree = "<group>"; };
+		A394AFD224DDC1F9003DA36D /* LEEAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlertHelper.h; sourceTree = "<group>"; };
+		A394AFD324DDC1F9003DA36D /* LEEAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEEAlert.m; sourceTree = "<group>"; };
 		C043ACDF78111B2116D6D777 /* Pods_HelloXXXPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloXXXPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D3F7EF98B32E83D7F03EDF /* Pods_HelloXXXPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloXXXPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFBF7A9ADB49AB003A860FB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFBF7A9ADB49AB003A860FB4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,9 @@
 			children = (
 				6003F59C195388D20070C39A /* NOAppDelegate.h */,
 				6003F59D195388D20070C39A /* NOAppDelegate.m */,
+				A394AFD124DDC1F9003DA36D /* LEEAlert.h */,
+				A394AFD324DDC1F9003DA36D /* LEEAlert.m */,
+				A394AFD224DDC1F9003DA36D /* LEEAlertHelper.h */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NOViewController.h */,
 				6003F5A6195388D20070C39A /* NOViewController.m */,
@@ -193,7 +200,6 @@
 				8B4AEAFD9883415C6B6262E3 /* Pods-HelloXXXPod_Tests.debug.xcconfig */,
 				8551DFAB65B74B8DDA1092B6 /* Pods-HelloXXXPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -367,6 +374,7 @@
 				6003F59E195388D20070C39A /* NOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NOViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A394AFD424DDC1F9003DA36D /* LEEAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
