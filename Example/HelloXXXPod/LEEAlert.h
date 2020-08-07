@@ -21,43 +21,9 @@
 #import <UIKit/UIKit.h>
 
 #import "LEEAlertHelper.h"
+
 #define KWIDTH  [UIScreen mainScreen].bounds.size.width
 #define KHEIGHT [UIScreen mainScreen].bounds.size. height
-
-
-/*
- *************************简要说明************************
- 
- Alert 使用方法
- 
- [LEEAlert alert].cofing.XXXXX.XXXXX.LeeShow();
- 
- ActionSheet 使用方法
- 
- [LEEAlert actionSheet].cofing.XXXXX.XXXXX.LeeShow();
- 
- 特性:
- - 支持alert类型与actionsheet类型
- - 默认样式为Apple风格 可自定义其样式
- - 支持自定义标题与内容 可动态调整其样式
- - 支持自定义视图添加 同时可设置位置类型等 自定义视图size改变时会自动适应.
- - 支持输入框添加 自动处理键盘相关的细节
- - 支持屏幕旋转适应 同时可自定义横竖屏最大宽度和高度
- - 支持自定义action添加 可动态调整其样式
- - 支持内部添加的功能项的间距范围设置等
- - 支持圆角设置 支持阴影效果设置
- - 支持队列和优先级 多个同时显示时根据优先级顺序排队弹出 添加到队列的如被高优先级覆盖 以后还会继续显示.
- - 支持两种背景样式 1.半透明 (支持自定义透明度比例和颜色) 2.毛玻璃 (支持效果类型)
- - 支持自定义UIView动画方法
- - 支持自定义打开关闭动画样式(动画方向 渐变过渡 缩放过渡等)
- - 更多特性未来版本中将不断更新.
- 
- 设置方法结束后在最后请不要忘记使用.LeeShow()方法来显示.
- 
- 最低支持iOS8及以上
- 
- *****************************************************
- */
 
 
 @interface LEEAlert : NSObject
