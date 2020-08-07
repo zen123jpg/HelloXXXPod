@@ -16,8 +16,8 @@
  *  @version    V1.2.1
  */
 
-#ifndef LEEAlertHelper_h
-#define LEEAlertHelper_h
+//#ifndef LEEAlertHelper_h
+//#define LEEAlertHelper_h
 
 FOUNDATION_EXPORT double LEEAlertVersionNumber;
 FOUNDATION_EXPORT const unsigned char LEEAlertVersionString[];
@@ -133,4 +133,4 @@ typedef LEEAlertConfigModel * _Nonnull (^LEEConfigToBlockAndBlock)(void(^)(void 
 
 typedef LEEAlertConfigModel * _Nonnull (^LEEConfigToStatusBarStyle)(UIStatusBarStyle style);
 
-#endif /* LEEAlertHelper_h */
+//#endif /* LEEAlertHelper_h */
