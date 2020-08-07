@@ -16,15 +16,16 @@
  *  @version    V1.2.1
  */
 
+
+#define KWIDTH  [UIScreen mainScreen].bounds.size.width
+#define KHEIGHT [UIScreen mainScreen].bounds.size. height
+
+
 #import <Foundation/Foundation.h>
 
 #import <UIKit/UIKit.h>
 
 #import "LEEAlertHelper.h"
-
-#define KWIDTH  [UIScreen mainScreen].bounds.size.width
-#define KHEIGHT [UIScreen mainScreen].bounds.size. height
-
 
 @interface LEEAlert : NSObject
 
