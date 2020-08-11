@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HelloXXXPod'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of HelloXXXPod.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HelloXXXPod/PhotoBrowser/**/*'
+  s.source_files = 'HelloXXXPod/Classes/**/*'
   
   # s.resource_bundles = {
   #   'HelloXXXPod' => ['HelloXXXPod/Assets/*.png']
